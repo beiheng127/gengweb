@@ -1,0 +1,41 @@
+﻿[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32m鉁?[39m 1872 modules transformed.
+rendering chunks...
+node.exe : [1m[33m[plugin:vite:reporter][39m[22m [33m[plugin vite:reporter] 
+所在位置 行:1 字符: 1
++ & "C:\nvm4w\nodejs/node.exe" "C:\nvm4w\nodejs/node_modules/npm/bin/np ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([1m[33m[plugi...vite:reporter] :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(!) C:/Users/ruia3/Desktop/CODE/gengweb/frontend/src/store/user.ts is dynamically imported by C:/Users/ruia3/Desktop/CO
+DE/gengweb/frontend/src/router/index.ts but also statically imported by C:/Users/ruia3/Desktop/CODE/gengweb/frontend/sr
+c/App.vue?vue&type=script&setup=true&lang.ts, dynamic import will not move module into another chunk.
+[39m
+computing gzip size...
+[2mdist/[22m[32mindex.html                       [39m[1m[2m    0.54 kB[22m[1m[22m[2m 鈹?gzip:   0.34 kB[22m
+[2mdist/[22m[35massets/LazyImage-CErhK9p8.css    [39m[1m[2m    0.62 kB[22m[1m[22m[2m 鈹?gzip:   0.33 kB[22m
+[2mdist/[22m[35massets/MemeDetail-Cm3RG8iQ.css   [39m[1m[2m    9.53 kB[22m[1m[22m[2m 鈹?gzip:   2.27 kB[22m
+[2mdist/[22m[35massets/Upload-DYpn6Y1I.css       [39m[1m[2m   10.50 kB[22m[1m[22m[2m 鈹?gzip:   2.87 kB[22m
+[2mdist/[22m[35massets/Audit-B8s4M2ut.css        [39m[1m[2m   10.77 kB[22m[1m[22m[2m 鈹?gzip:   2.50 kB[22m
+[2mdist/[22m[35massets/Home-BXhXSAxS.css         [39m[1m[2m   11.38 kB[22m[1m[22m[2m 鈹?gzip:   2.60 kB[22m
+[2mdist/[22m[35massets/Admin-A8qbyclB.css        [39m[1m[2m   12.61 kB[22m[1m[22m[2m 鈹?gzip:   2.88 kB[22m
+[2mdist/[22m[35massets/index-8_UhUqUl.css        [39m[1m[2m  359.90 kB[22m[1m[22m[2m 鈹?gzip:  48.69 kB[22m
+[2mdist/[22m[36massets/LazyImage-BB0mXJwO.js     [39m[1m[2m    1.02 kB[22m[1m[22m[2m 鈹?gzip:   0.60 kB[22m
+[2mdist/[22m[36massets/Audit-DJ8oEod0.js         [39m[1m[2m    6.22 kB[22m[1m[22m[2m 鈹?gzip:   2.75 kB[22m
+[2mdist/[22m[36massets/Home-B6tnkghQ.js          [39m[1m[2m    7.53 kB[22m[1m[22m[2m 鈹?gzip:   3.31 kB[22m
+[2mdist/[22m[36massets/MemeDetail-iMDfJ6-0.js    [39m[1m[2m    9.74 kB[22m[1m[22m[2m 鈹?gzip:   3.82 kB[22m
+[2mdist/[22m[36massets/Admin-DRhFW8zx.js         [39m[1m[2m   10.45 kB[22m[1m[22m[2m 鈹?gzip:   4.15 kB[22m
+[2mdist/[22m[36massets/Upload-D_EnUVW6.js        [39m[1m[2m   11.37 kB[22m[1m[22m[2m 鈹?gzip:   4.46 kB[22m
+[2mdist/[22m[36massets/index-B-ZsR-C9.js         [39m[1m[2m   49.47 kB[22m[1m[22m[2m 鈹?gzip:  19.73 kB[22m
+[2mdist/[22m[36massets/vue-vendor-bbQmeTg-.js    [39m[1m[2m  109.56 kB[22m[1m[22m[2m 鈹?gzip:  42.69 kB[22m
+[2mdist/[22m[36massets/markdown-CPDco6Ua.js      [39m[1m[33m  975.15 kB[39m[22m[2m 鈹?gzip: 322.55 kB[22m
+[2mdist/[22m[36massets/element-plus-_4QaX2-c.js  [39m[1m[33m1,049.61 kB[39m[22m[2m 鈹?gzip: 330.64 kB[22m
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-m
+anualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+[32m鉁?built in 41.28s[39m

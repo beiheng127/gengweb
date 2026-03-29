@@ -1,0 +1,11 @@
+# 使用本地 JDK 构建
+FROM eclipse-temurin:17-jre-alpine
+
+WORKDIR /app
+
+# 直接复制已构建的 jar 包
+COPY target/memepedia-backend.jar app.jar
+
+EXPOSE 8080
+
+ENTRYPOINT ["java", "-jar", "app.jar"]

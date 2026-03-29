@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.memepedia.mapper.CommentMapper">
+
+    <select id="selectCommentListWithUser" resultType="com.memepedia.entity.Comment">
+        SELECT c.*, u.nickname as user_name, u.avatar as user_avatar
+        FROM comment c
+        LEFT JOIN user u ON c.user_id = u.id
+        WHERE c.deleted = 0 AND c.meme_id = #{memeId}
+        ORDER BY c.create_time DESC
+    </select>
+
+</mapper>
